@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #ff0000, #630202);
+    color: White;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: black;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #FFFFFF;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 3em;
+    text-align: center;
+}
+nav {
+    background-color: grey;
+    float: left;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 1.5em;
+    width: 160px;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color:black;
+    transition-duration: 2s;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+main {
+    margin-left: 190px;
+    background-color: white;
+    overflow: auto;
+    padding: 1px 20px 20px 20px;
+    display: block;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: white;
+}
+
+h2 {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+dd {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 75%;
+    font-style: italic;
+    background-color: black;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: grey;
+    box-shadow: 3px 3px 3px #333333;
+    border: 1px solid black;
+}
+
+#home, #products, #about {
+    margin-left: 190px;
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-image: url(gamingperipherals.jpg);
+}
+
+#products {
+    background-image: url(colorful-gaming-accessories.jpg);
+}
+
+#about {
+    background-image: url(teamimage.jpg);
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: black;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    padding: 0.5em;
+    border: 2px solid black;
+    text-align: center;
+    color:black
+}
+
+th {
+    padding: 0.5em;
+    border: 2px solid black;
+    color: black;
+}
+
+.text {
+    text-align: left;
+    color:black
+}
+
+tr:nth-of-type(even) {
+    background-color: grey;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+    color: black;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
